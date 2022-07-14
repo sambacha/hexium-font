@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
-  src: local('Scancardium'), local('Scancardiumr'), url(fonts/Scancardiumr.woff2) format('woff2');
+  src: local('Scancardium'), local('Scancardium'), url(fonts/Scancardium.woff2) format('woff2');
 }
 
 h1,h2,h3,h4,h5,h6 {
