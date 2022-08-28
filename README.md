@@ -13,6 +13,14 @@ This shows the difference between regular EIP55 checksum address and ChainId enc
 
 ![](https://d.pr/i/vHcdYy.jpeg)
 
+### Testing
+
+##### Correct
+![](https://d.pr/i/DiraFb.jpeg)
+
+#### Incorrect
+
+![](https://d.pr/i/lC7cWd.jpeg)
 
 
 ### CSS Debug
