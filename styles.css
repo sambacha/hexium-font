@@ -1,0 +1,52 @@
+/* latin */
+@font-face {
+  font-family: 'Scancardium';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: local('Scancardium'), local('Scancardium'), url(./Scancardium.woff2) format('woff2');
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $headings;
+  clear: both;
+  line-height: 26px;
+  margin-top:  30px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  color: #82949e;
+  font-size: 14px;
+}
+
+dd, dt {
+  line-height: 25px;
+}
+
+ol, ul {
+padding-left: 25px;
+}

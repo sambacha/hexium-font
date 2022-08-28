@@ -1,0 +1,72 @@
+
+/* ***************************  %DEVELOPER DOC% *************************** */
+
+/*
+ * Wrap inline code samples otherwise they shoot of the side and
+ * can't be read at all.
+ */
+code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 2px 5px;
+}
+
+/**
+ * Make code blocks display as blocks and give them the appropriate
+ * font size and padding.
+ *
+ */
+pre code {
+  white-space: pre;
+  word-wrap: normal;
+  display: block;
+  padding: 12px;
+  font-size: 12px;
+}
+
+/*
+ * Fix link colors when the link text is inline code.
+ *
+ */
+a code {
+    color: #2980B9;
+}
+a:hover code {
+    color: #3091d1;
+}
+a:visited code {
+    color: #9B59B6;
+}
+
+/*
+ * Enforce CSS classes from highlight.js with theme
+ *
+ */
+pre .cs, pre .c {
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+/*
+ * Fixes issues with non-highlighted code samples.
+ */
+.no-highlight {
+  display: block;
+  padding: 0.5em;
+  color: #333;
+}
+
+/*
+ * add some display code to prevent the $ from being copied 
+ *
+ *```bash
+ * <screen>
+ *!    <prompt>$ <prompt>git clone https://github.com/$USR/$REPO.git
+ * </screen>
+ *```
+ */
+
+.prompt {
+    user-select: none;
+    -moz-user-select: none;
+  }

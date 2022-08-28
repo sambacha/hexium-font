@@ -1,0 +1,24 @@
+{
+  "name": "hexium-font",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/hexium-font.git"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/hexium-font/issues"
+  },
+  "homepage": "https://github.com/sambacha/hexium-font#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
