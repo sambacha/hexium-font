@@ -12,8 +12,8 @@
         Promise.all([
         document.fonts.load("400 1em 'Scancardium3'"),
         document.fonts.load("700 1em 'Scancardium3'"),
-        document.fonts.load("italic 1em 'Scancardium3'"),
-        document.fonts.load("italic 700 1em 'Scancardium3'"),
+        document.fonts.load("bold 1em 'Scancardium3'"),
+        document.fonts.load("bold 700 1em 'Scancardium3'"),
       ])
           .then(function() {
             document.documentElement.className += ' fonts-loaded-2';
