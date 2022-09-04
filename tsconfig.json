@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "lib": ["es2019", "es2020.promise", "es2020.bigint", "es2020.string"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES2019",
+    "declaration": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": false,
+    "allowUnreachableCode": false,
+    "esModuleInterop": false,
+    "tsBuildInfoFile": "./",
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": true,
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": true,
+    "noUncheckedIndexedAccess": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "preserveValueImports": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "isolatedModules": true
+   },
+     "include": [
+    "src/**/*.ts",
+    "font/**"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/.*/",
+    "src/**/*.test.ts"
+  ]
+}
