@@ -5,12 +5,13 @@ DisplayStrings = (
 "/nil",
 "ø",
 "◊",
-"＊"
+"＊",
+"/newGlyph.001"
 );
 customParameters = (
 {
 name = vendorID;
-value = APPL;
+value = WEB3;
 },
 {
 name = panose;
@@ -93,7 +94,7 @@ hyphen
 }
 );
 date = "2011-09-01 07:45:00 +0000";
-familyName = Scancardium;
+familyName = Checksum;
 fontMaster = (
 {
 customParameters = (
@@ -4877,6 +4878,23 @@ width = 600;
 unicode = 9674;
 },
 {
+category = Icon;
+glyphname = newGlyph.001;
+lastChange = "2022-09-11 02:41:42 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+associatedMasterId = m01;
+layerId = "27BD33C3-6E00-4813-B486-82F002B43F97";
+name = "Sep 10, 22, 19:40";
+width = 600;
+}
+);
+},
+{
 glyphname = newGlyph;
 lastChange = "2022-09-05 07:04:17 +0000";
 layers = (
@@ -5010,7 +5028,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = Scancardium;
+value = Checksum;
 }
 );
 }
