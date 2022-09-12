@@ -4992,11 +4992,11 @@ value = Regular;
 },
 {
 key = postscriptFullName;
-value = Scancardium;
+value = Checksum;
 },
 {
 key = postscriptFontName;
-value = Scancardium;
+value = Checksum;
 }
 );
 weightClass = 500;
