@@ -1,0 +1,5 @@
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 502929
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Cache-Control: public, max-age=31536000
