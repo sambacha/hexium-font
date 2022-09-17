@@ -1,4 +1,5 @@
 import "./styles.css";
+const version = 0.1.0;
 
 document.getElementById("app").innerHTML = `
 <h1>Ethereum Hex Font</h1>

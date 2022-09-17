@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  </meta>
+
+  </style>
+
+</head>
+
+<body>
+
+<h1>Ethereum Hex Font</h1>
+<br>
+<br>
+<pre>
+0x44532e0c322c0e3f7aff9180e872ff52fbe3538d4a26fd9829209d623d7dce17
+</pre>
+<br>
+<h3> 0x56650833ddef615fddd2b3082b06438fa050a6b8dce83151df1c2a31b7828bd8 </h3>
+<br>
+<p>0x4e4fb994039591f4c65c47e19629052a80943ab4226f7aec730cde5831a10672</p>
+
+<pre>Checksum</pre>
+✔︎ true
+<p>0x27b1fdb04752bbc536007a920d24acb045561c26</p>
+
+<pre>Checksum ChainId</pre>
+✔︎ true
+<p>0x27b1FdB04752BBc536007A920D24ACB045561c26</p>
+
+
+
+
+<style>
+
+table {
+    font-family: Checksum;
+}
+.highlighted > td {
+    background-color: #f6e58d !important;
+}
+.failed {
+  @font-face {
+  font-family: 'Checksum';
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://spaces.cache.storage/fonts/checksum/Checksum.woff2') format('woff2');
+}
+}
+
+</style>
+
+<p>Below are details of the last 4 blocks preceding the end of the round. The rows
+highlighted with yellow are transactions submitted by the attacker. The crossed
+out rows are failed transactions. All transactions by the attacker were
+submitted with a 501 Gwei gas price, and stuffing a single block costed around 4
+ETH. The calls to buy keys generally spend around 300,000~500,000 gas, depending
+on which function was called.
+Below, you see the successfully stuffed
+block 6191906.</p>
+
+<table>
+<caption><a href="https://etherscan.io/block/6191906">Block 6191906</a></caption>
+<tr>
+<th>Idx</th>
+<th>From</th>
+<th>To</th>
+<th>Hash</th>
+<th>ETH sent</th>
+<th>Gas Price<br />[Gwei]</th>
+<th>Gas Limit</th>
+<th>Gas Used</th>
+<th>ETH spent<br />on gas</th>
+</tr>
+<tr class="failed highlighted">
+<td>0</td>
+<td><a href="https://etherscan.io/address/0xF033ad4b1D63687efc24620be89aFD07b21B01f2">0xF03…1f2</a></td>
+<td><a href="https://etherscan.io/address/0x18e1B664C6a2E88b93C1b71F61Cbf76a726B7801">0x18e…801</a></td>
+<td><a href="https://etherscan.io/tx/0xb97d8e39db0fab5bc75c72e2fbbf3f1e2651b1e4c3fde5e2db02ee02db3fb8e4">0xb97…8e4</a></td>
+<td>0</td>
+<td>501.0</td>
+<td>4,200,000</td>
+<td>4,200,000</td>
+<td>2.1042</td>
+</tr>
+<tr class="failed highlighted">
+<td>1</td>
+<td><a href="https://etherscan.io/address/0x87C7BABE2A9Bf81C622a346fFbE57671545854eF">0x87C…4eF</a></td>
+<td><a href="https://etherscan.io/address/0x18e1B664C6a2E88b93C1b71F61Cbf76a726B7801">0x18e…801</a></td>
+<td><a href="https://etherscan.io/tx/0x96f3038119dcc786820008751380184988e067a3f01c6fbefa177565cc0881b0">0x96f…1b0</a></td>
+<td>0</td>
+<td>501.0</td>
+<td>3,600,000</td>
+<td>3,600,000</td>
+<td>1.8036</td>
+</tr>
+<tr class="failed highlighted">
+<td>2</td>
+<td><a href="https://etherscan.io/address/0xf6E89C15731D611A33DdcbF3274CfAAAe26E1059">0xf6E…059</a></td>
+<td><a href="https://etherscan.io/address/0x18e1B664C6a2E88b93C1b71F61Cbf76a726B7801">0x18e…801</a></td>
+<td><a href="https://etherscan.io/tx/0x897fc02810f6bbae8d8bc1a32e1e16f442a4c69fa6f77031e86fe546d6e002b3">0x897…2b3</a></td>
+<td>0</td>
+<td>501.0</td>
+<td>200,000</td>
+<td>200,000</td>
+<td>0.1002</td>
+</tr>
+<tr>
+<th>Sum</th>
+<th></th>
+<th></th>
+<th></th>
+<th>0</th>
+<th>1503.01</th>
+<th>8,000,000</th>
+<th>8,000,000</th>
+<th>4.0080</th>
+</tr>
+</table>
+
+<div style="overflow-x: scroll;">
+
+    <table>
+      <thead>
+        <tr>
+          <th>Round</th>
+          <th>Address winning the pot</th>
+          <th>Winner’s last tx before the end of the round</th>
+          <th>Block containing that tx</th>
+          <th>Tx ending the round</th>
+          <th>Block containing that tx</th>
+          <th>Tx where winner withdraws prize</th>
+          <th>Amount won [ETH]</th>
+          <th>Contract used for block stuffing</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>0xa169df5ed3363cfc4c92ac96c6c5f2a42fccbf85</td>
+          <td>0x7a06d9f11e650fbb2061b320442e26b4a704e1277547e943d73e5b67eb49c349</td>
+          <td>6191896</td>
+          <td>0xa143a1ee36e1065c3388440ef7e7b38ed41925ca4799c8a4d429fa3ee1966012</td>
+          <td>6191909</td>
+          <td>0xe08a519c03cb0aed0e04b33104112d65fa1d3a48cd3aeab65f047b2abce9d508</td>
+          <td>10,469</td>
+          <td>0x18e1b664c6a2e88b93c1b71f61cbf76a726b7801</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>0x18a0451ea56fd4ff58f59837e9ec30f346ffdca5</td>
+          <td>0x0437885fa741f93acfdcda9f5a2e673bb16d26dd22dfc4890775efb8a94fb583</td>
+          <td>6391537</td>
+          <td>0x87bf726bc60540c6b91cc013b48024a5b8c1431e0847aadecf0e92c56f8f46fd</td>
+          <td>6391548</td>
+          <td>0x4da4052d2baffdc9c0b82d628b87d2c76368914e33799032c6966ee8a3c216a0</td>
+          <td>3,264</td>
+          <td>0x705203fc06027379681AEf47c08fe679bc4A58e1</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>0xaf492045962428a15903625B1a9ECF438890eF92</td>
+          <td>0x88452b56e9aa58b70321ee8d5c9ac762a62509c98d9a29a4d64d6caae49ae757</td>
+          <td>6507761</td>
+          <td>0xe6a5a10ec91d12e3fec7e17b0dfbb983e00ffe93d61225735af2e1a8eabde003</td>
+          <td>6507774</td>
+          <td>0xd7e70fdf58aca40139246a324e871c84d988cfaff673c9e5f384315c91afa5e4</td>
+          <td>376</td>
+          <td>0xdcC655B2665A675B90ED2527354C18596276B0de</td>
+        </tr>
+      </tbody>
+    </table>
+  
+  </div>
+
+</div>
+</div>
+</body>
+<footer>
+</footer>
+</html>
